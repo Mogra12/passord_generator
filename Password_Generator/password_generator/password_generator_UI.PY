@@ -15,6 +15,7 @@ hex_chars = string.hexdigits
 
 PASSWORD_LENGTH = 15
 
+
 def add_to_clipboard(text):
     command = "echo " + text.strip() + "| clip"
     os.system(command)
